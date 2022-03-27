@@ -1,0 +1,88 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: silver;
+}
+
+form,
+button {
+    width: 200px;
+    margin: 10px auto 2px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.input-poke {
+    width: 100%;
+    padding: 10px ;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.boton-buscar{
+    color: white;
+    background-color: #23651E;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Estilo de la card */
+.consola-pokedex{
+    position: relative;
+    height: fit-content;
+    max-width: 300px;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #FD2F3F;
+    border: 1px solid #FD2F3F;
+
+}
+.consola-pokedex::before{
+    content: '';
+    background: radial-gradient(black 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1
+}
+
+.poke-card{
+    color: black;
+    text-align: center;
+}
+
+.img-container{
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+
+}
+
+.poke-stats div{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.poke-stats{
+    border: 1px dashed black;
+    border-radius: 4px;
+    background-color: silver;
+}
+
+.poke-types div{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px dashed black;
+    background-color: black;
+}
+
+.poke-img{
+    width: 200px;
+    border-radius: 50%;
+}
+
